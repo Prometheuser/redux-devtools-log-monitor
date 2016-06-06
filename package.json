@@ -1,6 +1,6 @@
 {
-  "name": "redux-devtools-log-monitor",
-  "version": "1.0.11",
+  "name": "redux-devtools-log-monitor-ie8",
+  "version": "0.0.1",
   "description": "The default tree view monitor for Redux DevTools",
   "main": "lib/index.js",
   "files": [
@@ -13,7 +13,7 @@
     "lint": "eslint src test",
     "test": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive",
     "test:watch": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive --watch",
-    "prepublish": "npm run lint && npm run test && npm run clean && npm run build"
+    "prepublish": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
@@ -28,12 +28,12 @@
     "time travel",
     "live edit"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "tengchiayueh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gaearon/redux-devtools-log-monitor/issues"
   },
-  "homepage": "https://github.com/gaearon/redux-devtools-log-monitor",
+  "homepage": "https://github.com/Prometheuser/redux-devtools-log-monitor",
   "devDependencies": {
     "babel-cli": "^6.3.15",
     "babel-core": "^6.1.20",
@@ -53,7 +53,7 @@
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0",
-    "redux-devtools": "^3.0.0"
+    "redux-devtools-ie8": "0.0.1"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.4",

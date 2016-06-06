@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from 'react';
 import LogMonitorButton from './LogMonitorButton';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 import * as themes from 'redux-devtools-themes';
-import { ActionCreators } from 'redux-devtools';
+import { ActionCreators } from 'redux-devtools-ie8';
 import { updateScrollTop } from './actions';
 import reducer from './reducers';
 import LogMonitorEntryList from './LogMonitorEntryList';
